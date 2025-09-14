@@ -32,7 +32,7 @@
             font-size: 1.5rem;
         }
         #home{
-            background-image: url(waves.png);
+            background: url(waves.png);
             background-size: cover;
             background-repeat: no-repeat;
         }
@@ -41,3 +41,4 @@
         }
 
    
+
