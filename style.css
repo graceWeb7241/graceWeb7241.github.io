@@ -32,11 +32,12 @@
             font-size: 1.5rem;
         }
         #home{
-            background-image: url(assets/waves.png);
+            background-image: url(waves.png);
             background-size: cover;
             background-repeat: no-repeat;
         }
         .text-blue{
             color: rgb(15, 72, 138);
         }
+
    
