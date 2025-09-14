@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Choice</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <img src="laundry-basket_17347987-removebg-preview.png" alt="icon of a laundry basket loaded with folded clothes"id="logo">
+            <a class="navbar-brand" href="#">Laundry Choice</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section - Moved outside main container -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <h1>Welcome to Laundry Choice</h1>
+            <p class="lead">Laundry day simplified, from the voider to your closet</p>
+            <a href="#services" class="btn btn-light btn-lg mt-3">Our Services</a>
+        </div>
+    </section>
+
+    <!-- Main Content - Start after home section -->
+    <main class="container mt-5">
+        <!-- Services Section -->
+        <section id="services" class="py-5">
+            <h2>Our Services</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <ul class="list-group list-group-flush">
+                        <p>With our wash and fold services, you get to enjoy the following benefits</p>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            No more worrying about the water bill increasing with every load washed 
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            We use fabric freshners, ensuring that your clothes are not just clean but also fresh
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            Neat closet with zero hassle. Clothes come neatly folded ready to be packed into your closet
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            Simplified laundry day, from a back breaking ordeal to a leave and pickup convenience
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="fresh.jpg" alt="Fresh and Clean clothes" class="img-fluid rounded shadow">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded">
+                                    <h5>Fresh and Clean</h5>
+                                    <p>fabric fresheners for a clean and fresh feel</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="fold.png" alt="Neatly folded clothes" class="img-fluid rounded shadow">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded">
+                                    <h5>Neatly Folded</h5>
+                                    <p>Your clothes come back perfectly folded</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="pain.jpg" alt="No more Back pain" class="img-fluid rounded shadow">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded">
+                                    <h5>No More Hassle</h5>
+                                    <p>Say goodbye to back-breaking laundry days</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="py-5">
+            <h2 class="mb-4">Pricing</h2>
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Price (KES)/Unit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Shirt/T-shirt/Tops</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Trousers/Sweat-Pants</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Jeans</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Dress/Skirts</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Hoodies</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Bedsheet</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Pillow casings</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Towels</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Socks</td>
+                            <td>15</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="alert alert-info mt-4">
+                <h5 class="mb-3"><i class="bi bi-cash-coin me-2"></i>Payment Information</h5>
+                <p class="mb-2">We accept M-PESA payments with the following terms:</p>
+                <ul class="list-unstyled ms-4">
+                    <li><i class="bi bi-check2-circle me-2"></i>50% deposit payment before service delivery</li>
+                    <li><i class="bi bi-check2-circle me-2"></i>Remaining balance to be paid upon pickup</li>
+                </ul>
+                <p class="mb-0"><small>M-PESA Send Money: <strong>0746425135</strong></small></p>
+            </div>
+        </section>
+</main>
+
+       
+        
+
+ <!-- Footer -->
+ <footer id="footer" class="bg-dark text-white text-center py-2 mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>For more Information:</p>
+                    <h4>Contact Us</h4>
+                    <p>
+                        <i class="bi bi-whatsapp me-2"></i>
+                        <a href="https://wa.me/254746425135?text=Hello%20Choice%20Laundry!%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services" 
+                           class="text-white text-decoration-none">
+                           WhatsApp
+                        </a>
+                    </p>
+                    <p>
+                        <i class="bi bi-telephone-fill me-2"></i>
+                        <a href="tel:+254746425135" class="text-white text-decoration-none">
+                            Call Us: +254 746 425 135
+                        </a>
+                    </p>
+                    <p class="mb-0">&copy; 2025 Laundry Choice. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+ </footer>
+
+    
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

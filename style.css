@@ -1,0 +1,42 @@
+ /*Custom CSS*/
+ #logo{
+    width: 50px;
+    height: 50px;
+ }
+    
+        .video-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .hero-section {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('laundry-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            margin-top: -48px; /* Adjust based on your navbar height */
+        }
+        .hero-content {
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero-content .lead {
+            font-size: 1.5rem;
+        }
+        #home{
+            background-image: url(assets/waves.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .text-blue{
+            color: rgb(15, 72, 138);
+        }
+   
